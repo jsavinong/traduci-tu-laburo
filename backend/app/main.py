@@ -7,7 +7,8 @@ from .database import save_translation
 app = FastAPI()
 
 origins = ["http://localhost:3000",
-           "http://localhost:5173"
+           "http://localhost:5173",
+           "https://traduci-tu-laburo-mvp.web.app"
            ]
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
