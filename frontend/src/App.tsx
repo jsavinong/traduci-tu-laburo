@@ -1,5 +1,5 @@
 // frontend/src/App.tsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Container, Typography, Box, CssBaseline, Alert } from '@mui/material';
 import { ExperienceForm } from './components/ExperienceForm';
 import { SkillsResult } from './components/SkillsResult';
